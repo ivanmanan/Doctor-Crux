@@ -1,2 +1,2 @@
 # Doctor-Crux
-Doctor Crux - the web Medical Doctor.
+Doctor Crux - The Web Medical Doctor.
