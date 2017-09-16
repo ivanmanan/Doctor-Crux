@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import Layout from "./Components/Layout";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './styles.css';
 
-const element = (
-  <h1>Hello world!</h1>
+ReactDOM.render(
+  <Layout/>,
+  document.getElementById('root')
 );
-
-ReactDOM.render(element, document.getElementById('root'));
