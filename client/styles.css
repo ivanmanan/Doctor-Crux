@@ -6,7 +6,7 @@ body{
     background-color: white;
     height: 100%;
     width: 100%;
-    position:fixed;
+    position: fixed;
     font-size: 100%;
 }
 
@@ -50,3 +50,17 @@ header p {
     background-color: #d0edf5;
     cursor: pointer;
 }
+
+/* Diagnosis Component */
+
+
+/* Encyclopedia Component */
+#encyclopedia li {
+    font-size: 3em;
+}
+#encyclopedia a:hover {
+    text-decoration: none;
+}
+
+
+/* Personal Component */

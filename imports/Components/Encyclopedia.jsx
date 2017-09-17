@@ -4,7 +4,9 @@ class Encyclopedia extends Component {
   render() {
     return (
       <li>
-        <a href={this.props.illness.link}>{this.props.illness.name}</a>
+        <a href={this.props.illness.link} target="_blank">
+          {this.props.illness.name}
+        </a>
       </li>
     );
   }

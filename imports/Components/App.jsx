@@ -16,7 +16,7 @@ class App extends Component {
   getOptions() {
     return [
       { _id: 1, section: 'Diagnosis' },
-      { _id: 2, section: 'Encyclopedia' }, // This will be a daily random number generator indexing my database
+      { _id: 2, section: 'Encyclopedia' },
       { _id: 3, section: 'Personal' },
     ];
   }
@@ -50,7 +50,7 @@ class App extends Component {
           </div>
         </nav>
 
-        <div className="container">
+        <div className="container" id="encyclopedia">
           {this.renderEncyclopedia()}
         </div>
 
@@ -65,10 +65,13 @@ export default createContainer(() => {
   };
 }, App);
 
+/* TO-DO: Add a form so you can filter through illnesses in encyclopedia */
+
 
 /* Based on what the user clicks on the navbar renders the component
    --> may be implemented with a switch statement
    It will be written below the nav tags
 
-   On hover at navbar: can make li className be active
+   must add onClick() event for each option to render proper containers
+   Also must display which option is active/open right now
 */
