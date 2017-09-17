@@ -59,10 +59,29 @@ header p {
 }
 
 /* Diagnosis Component */
-
+.symptoms input {
+    box-sizing: border-box;
+    padding: 10px 0;
+    padding-left: 10px;
+    /* background: transparent; */
+    /* border: none; */
+    width: 100%;
+    font-size: 2em;
+}
+.symptoms input:focus{
+  outline: 0;
+}
+.symptoms button {
+    box-sizing: border-box;
+    padding: 5px 0;
+    width: 100%;
+    font-size: 2em;
+    vertical-align: center;
+}
 
 /* Encyclopedia Component */
 .encyclopedia li {
+    padding: 0px 0px 0px 10px;
     font-size: 3em;
 }
 .encyclopedia a:hover {

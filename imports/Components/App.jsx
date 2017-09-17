@@ -108,4 +108,6 @@ export default createContainer(() => {
 
    must add onClick() event for each option to render proper containers
    Also must display which option is active/open right now
+
+   --> navbar implementation events can be copied from diagnosis on states
 */
