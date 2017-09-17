@@ -1,7 +1,10 @@
 // Home Interface
 import React, { Component } from 'react';
+import { createContainer } from 'meteor/react-meteor-data';
+import { Illnesses } from '../api/illness.js';
 
 import Option from './Option';
+import Encyclopedia from './Encyclopedia';
 
 const element = (
   <h1>Hello world!</h1>
@@ -12,9 +15,9 @@ class App extends Component {
 
   getOptions() {
     return [
-      { _id: 1, text: 'Diagnosis' },
-      { _id: 2, text: 'Daily Disease' }, // This will be a daily random number generator indexing my database
-      { _id: 3, text: 'Personal' },
+      { _id: 1, section: 'Diagnosis' },
+      { _id: 2, section: 'Encyclopedia' }, // This will be a daily random number generator indexing my database
+      { _id: 3, section: 'Personal' },
     ];
   }
 
@@ -25,6 +28,12 @@ class App extends Component {
     ));
   }
 
+  // Render from database
+  renderEncyclopedia() {
+    return this.props.illnesses.map((illness) => (
+      <Encyclopedia key={illness._id} illness={illness}/>
+    ));
+  }
 
   render() {
 	  return (
@@ -41,11 +50,20 @@ class App extends Component {
           </div>
         </nav>
 
+        <div className="container">
+          {this.renderEncyclopedia()}
+        </div>
+
       </div>
     );
   }
 }
-export default App;
+
+export default createContainer(() => {
+  return {
+    illnesses: Illnesses.find({}).fetch(),
+  };
+}, App);
 
 
 /* Based on what the user clicks on the navbar renders the component

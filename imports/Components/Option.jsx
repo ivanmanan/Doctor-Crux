@@ -4,7 +4,9 @@ import React, { Component, PropTypes } from 'react';
 class Option extends Component {
   render() {
     return (
-      <li>{this.props.option.text}</li>
+      <li>
+        {this.props.option.section}
+      </li>
     );
   }
 }
