@@ -17,4 +17,6 @@ class Encyclopedia extends Component {
 
 export default Encyclopedia;
 
-/* TO-DO: This needs a searchIllness form */
+/* TO-DO: This needs a searchIllness form
+   Also needs to sort by ABC order
+*/
