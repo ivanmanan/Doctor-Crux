@@ -63,7 +63,7 @@ class App extends Component {
 	  return (
       <div className="container">
         <header>
-          <h1>Doctor Forward</h1>
+          <h1>Doctor Crux</h1>
         </header>
 
         <nav className="navbar navbar-default navbar-static-top">
