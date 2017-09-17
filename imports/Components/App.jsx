@@ -43,10 +43,20 @@ class App extends Component {
         </header>
 
         <nav className="navbar navbar-default navbar-static-top">
-          <div className="navbar-collapse collapse">
-            <ul className="nav navbar-nav" id="header-options">
-              {this.renderOptions()}
-            </ul>
+          <div className="container-fluid">
+            <div className="navbar-header">
+              <button type="button" className="navbar-toggle"
+                      data-toggle="collapse" data-target="#cruxNavBar">
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+              </button>
+            </div>
+            <div className="navbar-collapse collapse" id="cruxNavBar">
+              <ul className="nav navbar-nav" id="header-options">
+                {this.renderOptions()}
+              </ul>
+            </div>
           </div>
         </nav>
 

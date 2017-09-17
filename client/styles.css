@@ -42,13 +42,22 @@ header p {
 }
 
 #header-options li {
-    padding: 1.5em 1.5em 1.5em 1.5em;
+    padding: 1em 1em 1em 1em;
     font-size: 2.5em;
     font-weight: bold;
 }
 #header-options li:hover {
     background-color: #d0edf5;
     cursor: pointer;
+}
+
+.navbar-header button {
+    /* width: 2em; */
+    /* height: 2em; */
+}
+
+.icon-bar {
+    color: black;
 }
 
 /* Diagnosis Component */

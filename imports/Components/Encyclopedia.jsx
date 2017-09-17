@@ -13,9 +13,3 @@ class Encyclopedia extends Component {
 }
 
 export default Encyclopedia;
-
-/*
-   Insert into database:
-   $ meteor mongo
-   db.illnesses.insert({ name: "First illness", link: "#", createdAt: new Date() });
-*/
