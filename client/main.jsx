@@ -2,13 +2,15 @@ import React from 'react';
 import { Meteor } from 'meteor/meteor';
 import { render } from 'react-dom';
 
-const element = (
-  <h1>Hello world!</h1>
-);
+import Layout from '../imports/Components/Layout';
+import App from '../imports/Components/App';
 
 Meteor.startup(() => {
   render(
-    element,
+    <div>
+      <Layout/>
+      <App/>
+    </div>,
     document.getElementById('root')
   );
 });

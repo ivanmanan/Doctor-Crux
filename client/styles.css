@@ -1,0 +1,42 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position:fixed;
+}
+nav{
+/* this does not work -- need to find a way to not let navbar
+ re-scale when it gets maximized*/
+    white-space: nowrap;
+}
+.navbar-header h1:hover{
+    background-color: mintcream
+}
+#top-panel{
+    box-shadow:0 0 3px 3px darkslategray;
+    position:fixed;
+}
+#heading{
+    font-size: 2em;
+    color: white;
+    margin-left: 2em;
+}
+#header-links{
+    margin-right: 2.5em;
+    color: white;
+    padding: 0.9em 0.9em;
+}
+#header-links li{
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+#header-links a{
+    color: white;
+}
+#allow-hover{
+    font-size: 1.5em;
+}
+#allow-hover a:hover{
+    background-color: green;
+}
