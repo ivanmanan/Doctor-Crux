@@ -1,12 +1,26 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 
 // Option Componeent
 class Option extends Component {
+  // Construct initial state
+  constructor(props) {
+    super(props);
+    if (this.props.option.selection === "Diagnosis")
+      this.state = {isToggleOn: true}
+    else
+      this.state = {isToggleOn: false}
+  }
+
+  // Handles button click events
+  handleClick() {
+    console.log("Hello!");
+  }
+
   render() {
     return (
-      <li>
+      <button onClick={this.handleClick}>
         {this.props.option.section}
-      </li>
+      </button>
     );
   }
 }

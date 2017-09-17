@@ -1,9 +1,11 @@
 // Home Interface
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import { createContainer } from 'meteor/react-meteor-data';
 import { Illnesses } from '../api/illness.js';
 
 import Option from './Option';
+import Diagnosis from './Diagnosis';
 import Encyclopedia from './Encyclopedia';
 
 const element = (
@@ -28,24 +30,46 @@ class App extends Component {
     ));
   }
 
-  // Render from database
+  // Render Diagnosis Component
+  renderDiagnosis() {
+    return <Diagnosis/>;
+  }
+
+  // Render Encyclopedia from Database
   renderEncyclopedia() {
     return this.props.illnesses.map((illness) => (
       <Encyclopedia key={illness._id} illness={illness}/>
     ));
   }
 
+  // Render base on button clicks
+  renderSelection() {
+    // Press of buttons will determine option selected
+    var optionSelected = "Diagnosis";
+
+    if (optionSelected === "Diagnosis")
+      return this.renderDiagnosis();
+    else if (optionSelected === "Encyclopedia")
+      return this.renderEncyclopedia();
+    else if (optionSelected === "Personal")
+      return;
+    else
+      return (
+        <h1>Please select a button!</h1>
+      );
+  }
+
   render() {
 	  return (
       <div className="container">
         <header>
-          <h1>Simple Doctor Crux</h1>
+          <h1>Doctor Forward</h1>
         </header>
 
         <nav className="navbar navbar-default navbar-static-top">
           <div className="container-fluid">
-            <div className="navbar-header">
-              <button type="button" className="navbar-toggle"
+            <div className="navbar-right">
+              <button type="button" className="pull-left navbar-toggle"
                       data-toggle="collapse" data-target="#cruxNavBar">
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
@@ -60,8 +84,8 @@ class App extends Component {
           </div>
         </nav>
 
-        <div className="container" id="encyclopedia">
-          {this.renderEncyclopedia()}
+        <div className="container">
+          {this.renderSelection()}
         </div>
 
       </div>
