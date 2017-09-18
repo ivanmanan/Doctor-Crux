@@ -9,6 +9,14 @@ class Encyclopedia extends Component {
           <a href={this.props.illness.link} target="_blank">
             {this.props.illness.name}
           </a>
+          <h2>Summary</h2>
+          <p>
+            {this.props.illness.summary}
+          </p>
+          <h2>Treatment</h2>
+          <p>
+            {this.props.illness.treatment}
+          </p>
         </li>
       </div>
     );
@@ -18,5 +26,8 @@ class Encyclopedia extends Component {
 export default Encyclopedia;
 
 /* TO-DO: This needs a searchIllness form
-   Also needs to sort by ABC order
-*/
+
+   Application will run very slow if I display all the illnesses at once
+   Solution: simply have ABC selections
+
+ */

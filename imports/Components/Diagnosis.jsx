@@ -15,7 +15,7 @@ class Diagnosis extends Component {
 
   // Handle Form Search
   handleSubmitSymptoms(event) {
-    //event.preventDefault();
+    event.preventDefault();
     const input = ReactDOM.findDOMNode(this.refs.textInput).value.trim();
     if (input === "") return;
     else
@@ -27,8 +27,8 @@ class Diagnosis extends Component {
 
   render() {
     return (
-      <div className="text-center">
-        <div className="Diagnosis">
+      <div className="Diagnosis">
+        <div className="text-center">
           <h1>What is your illness?</h1>
 
           <form className="symptoms"

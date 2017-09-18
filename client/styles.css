@@ -1,12 +1,11 @@
 html {
-    width: 100vw;
+    width: 98vw;
 }
 body{
     font-family: "Times New Roman", Times, serif;
     background-color: white;
     height: 100%;
     width: 100%;
-    position: fixed;
     font-size: 100%;
 }
 
@@ -53,7 +52,14 @@ header p {
     background-color: #d0edf5;
     cursor: pointer;
 }
-
+.active {
+    background-color: #d0edf5;
+    cursor: pointer;
+}
+.not-active {
+    background-color: none;
+    cursor: pointer;
+}
 .icon-bar {
     color: black;
 }
@@ -80,13 +86,31 @@ header p {
 }
 
 /* Encyclopedia Component */
+.encyclopedia {
+    border-style: solid;
+    background-color: aliceblue;
+    cursor: default;
+}
 .encyclopedia li {
-    padding: 0px 0px 0px 10px;
+    padding-bottom: 30px;
     font-size: 3em;
+    list-style-type: none;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.encyclopedia a {
+    font-size: 2.5em;
+    color: blue;
 }
 .encyclopedia a:hover {
     text-decoration: none;
 }
-
+.encyclopedia h2 {
+    font-size: 0.85em;
+    font-weight: bold;
+}
+.encyclopedia p {
+    font-size: 0.75em;
+}
 
 /* Personal Component */

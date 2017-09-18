@@ -28,4 +28,6 @@ export default Illness;
 
    TO-DO: Prevent NoSQL Injections with MongoDB - must verify symptoms
    does not have any damaging characters before querying database
+
+   May need to for-loop matching all searches for symptoms
  */
