@@ -32,8 +32,7 @@ class Diagnosis extends Component {
           <h1>What is your illness?</h1>
         </div>
         <div className="row">
-          <form className="symptoms"
-                onSubmit={this.handleSubmitSymptoms.bind(this)}>
+          <form onSubmit={this.handleSubmitSymptoms.bind(this)}>
             <div className="row">
               <div className="col-md-4 col-md-offset-3
                               col-sm-5 col-sm-offset-2

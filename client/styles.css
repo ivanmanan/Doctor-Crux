@@ -68,7 +68,7 @@ header p {
 .diagnosis {
     padding-bottom: 50px;
 }
-.symptoms input {
+.diagnosis input {
     box-sizing: border-box;
     padding: 10px 0;
     padding-left: 10px;
@@ -77,15 +77,18 @@ header p {
     width: 100%;
     font-size: 2em;
 }
-.symptoms input:focus{
+.diagnosis input:focus{
   outline: 0;
 }
-.symptoms button {
+.diagnosis button {
     box-sizing: border-box;
     padding: 5px 0;
     width: 100%;
     font-size: 2em;
     vertical-align: center;
+}
+.symptoms {
+    font-weight: bold;
 }
 
 /* Encyclopedia Component */
