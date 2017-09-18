@@ -14,7 +14,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      optionSelected: "Personal", // Default should be Diagnosis
+      optionSelected: "Diagnosis", // Default should be Diagnosis
     };
     this.handleOptions = this.handleOptions.bind(this);
   }

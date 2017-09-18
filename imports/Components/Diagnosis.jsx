@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import Illness from './Illness';
+import Symptoms from './Symptoms';
 
 class Diagnosis extends Component {
   constructor(props) {
@@ -36,7 +36,7 @@ class Diagnosis extends Component {
                 onSubmit={this.handleSubmitSymptoms.bind(this)}>
             <div className="row">
               <div className="col-md-4 col-md-offset-3
-                              col-sm-5 col-sm-offset-3
+                              col-sm-5 col-sm-offset-2
                               col-xs-5 col-xs-offset-2">
                 <input type="text" ref="textInput" autoFocus
                        placeholder="Enter your symptoms"/>
@@ -50,7 +50,7 @@ class Diagnosis extends Component {
           </form>
 
           {this.state.illnessSearched ?
-           <Illness symptoms={this.state.symptoms}/> : null
+           <Symptoms symptoms={this.state.symptoms}/> : null
           }
 
         </div>
@@ -60,3 +60,16 @@ class Diagnosis extends Component {
 }
 
 export default Diagnosis;
+
+/*
+   TO-DO:
+   Need to display searched symptoms Component
+
+   AND make a function that processes and filters through the symptoms
+   then displays the Encyclopedia tags
+
+   TO-DO: Prevent NoSQL Injections with MongoDB - must verify symptoms
+   does not have any damaging characters before querying database
+
+   "Perhaps you should see a real doctor"
+ */

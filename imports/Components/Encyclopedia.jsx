@@ -17,6 +17,10 @@ class Encyclopedia extends Component {
           <p>
             {this.props.illness.treatment}
           </p>
+          <h2>Symptoms</h2>
+          <p>
+            {this.props.illness.symptoms}
+          </p>
         </li>
       </div>
     );
