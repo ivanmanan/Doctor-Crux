@@ -65,6 +65,9 @@ header p {
 }
 
 /* Diagnosis Component */
+.diagnosis {
+    padding-bottom: 50px;
+}
 .symptoms input {
     box-sizing: border-box;
     padding: 10px 0;
@@ -90,6 +93,7 @@ header p {
     border-style: solid;
     background-color: aliceblue;
     cursor: default;
+    padding: 20px 0px 50px 0px;
 }
 .encyclopedia li {
     padding-bottom: 30px;
@@ -115,8 +119,30 @@ header p {
 
 /* Personal Component */
 .personal {
+    padding-bottom: 50px;
 }
-.personal-heading {
+.personal h1 {
     font-size: 6em;
     color: blue;
+}
+.personal h2 {
+    font-size: 3.5em;
+    color: black;
+    font-weight: bold;
+}
+.personal p {
+    font-size: 3em;
+}
+#bmi-image {
+    max-width: 110%;
+    height: auto;
+    width: auto;
+}
+#bmi-calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 40%;
+}
+.bmi-form button {
+    padding: 3px 10px 3px 10px;
 }

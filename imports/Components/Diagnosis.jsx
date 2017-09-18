@@ -27,7 +27,7 @@ class Diagnosis extends Component {
 
   render() {
     return (
-      <div className="Diagnosis">
+      <div className="diagnosis">
         <div className="row text-center">
           <h1>What is your illness?</h1>
         </div>
@@ -36,8 +36,8 @@ class Diagnosis extends Component {
                 onSubmit={this.handleSubmitSymptoms.bind(this)}>
             <div className="row">
               <div className="col-md-4 col-md-offset-3
-                col-sm-5 col-sm-offset-3
-                col-xs-5 col-xs-offset-2">
+                              col-sm-5 col-sm-offset-3
+                              col-xs-5 col-xs-offset-2">
                 <input type="text" ref="textInput" autoFocus
                        placeholder="Enter your symptoms"/>
               </div>
