@@ -114,3 +114,9 @@ header p {
 }
 
 /* Personal Component */
+.personal {
+}
+.personal-heading {
+    font-size: 6em;
+    color: blue;
+}

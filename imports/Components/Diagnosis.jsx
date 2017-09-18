@@ -28,9 +28,10 @@ class Diagnosis extends Component {
   render() {
     return (
       <div className="Diagnosis">
-        <div className="text-center">
+        <div className="row text-center">
           <h1>What is your illness?</h1>
-
+        </div>
+        <div className="row">
           <form className="symptoms"
                 onSubmit={this.handleSubmitSymptoms.bind(this)}>
             <div className="row">
