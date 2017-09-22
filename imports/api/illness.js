@@ -5,6 +5,6 @@ export const Illnesses = new Mongo.Collection('illnesses');
 
 export const IllnessesIndex = new Index({
   collection: Illnesses,
-  fields: ['symptoms'],
+  fields: ['symptoms', 'name'],
   engine: new MinimongoEngine(),
 });

@@ -19,45 +19,20 @@ class Symptoms extends Component {
 
     // Search for matching symptoms in database
     // Then spit out the illness names
-    /* var illnessData= [];*/
+    var illnessData= [];
     for (var i = 0; i != symptoms.length; i++) {
-      /* illnessData.push(IllnessesIndex.search(symptoms[i]).fetch());*/
+      illnessData.push(IllnessesIndex.search(symptoms[i]).fetch());
     }
     // when you type in 'sneezing', it gives two JSON objects into single array value
-
     // must stop duplicate illnesses from appearing!
 
-    /* var tester = Illnesses.find({ symptoms: this.props.symptoms }).fetch();
-     * console.log(tester[0]._id);*/
-
-    /* console.log(illnessData[0]);
-     * console.log(JSON.stringify(illnessData[0]));
-
-     * var anotherTest = illnessData[0];
-     * console.log("Below is what I want to see:");
-     * console.log(anotherTest);
-     * console.log(anotherTest._id);
-     */
-
-    /*
-     * console.log(illnessData[0]._id);
-     * console.log(illnessData[0].name);
-
-     * var tester = illnessData[0];
-     * console.log(tester);
-     * console.log(tester.name);
-     */
-
-    // Need to create a for-loop of illnesses i want to return
-
-    // seems like it is not friendly with arrays
-    var illnessData = IllnessesIndex.search("overweight").fetch();
+    const illnesses = illnessData.map((illness) => (
+      <Encyclopedia key={illness[0]._id} illness={illness[0]}/>
+    ));
 
 
 
-    return (
-      <Encyclopedia key={illnessData[0]._id} illness={illnessData[0]}/>
-    );
+    return illnesses;
   }
 
   render() {
