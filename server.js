@@ -1,6 +1,8 @@
 import { Meteor } from 'meteor/meteor';
 import './imports/api/illness.js';
+import { Illnesses } from './imports/api/illness.js';
+
 
 Meteor.startup(() => {
-  // code to run on server at startup
+  // console.log(Illnesses.find().fetch());
 });

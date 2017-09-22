@@ -1,12 +1,11 @@
-
 /*
-   Insert into database:
+   Show database:
    $ meteor mongo
    db.illnesses.find();
    load('/home/ivan/crux/imports/mongo/listIllnesses.js');
-   db.illnesses.deleteMany({});
 */
 
+db.illnesses.deleteMany({});
 db.illnesses.insert({ name: "Obesity",
                       link: "https://en.wikipedia.org/wiki/Obesity",
                       symptoms: "overweight, pot belly",
@@ -25,3 +24,5 @@ db.illnesses.insert({ name: "Allergy",
                       summary: "A damaging immune response by the body to a substance, especially pollen, fur, or a particular food, to which the body becomes hypersensitive.",
                       treatment: "Take off-the-counter allergy medications. Remove possible sources of allergies around you."
                     });
+
+db.illnesses.createIndex({ "symptoms" : "text" });

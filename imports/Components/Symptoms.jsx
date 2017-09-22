@@ -25,7 +25,11 @@ class Symptoms extends Component {
     }
 
     // need to do the return as an if-statement else there will be console errors
-    var illnessData = Illnesses.find({ symptoms: this.props.symptoms }).fetch();
+    /* var illnessData = Illnesses.find({ symptoms: this.props.symptoms }).fetch();*/
+    // may want to create a for-loop of illnesses i want to return
+
+    // SOLUTION: Must use Meteor.subscribe method
+    var illnessData = Illnesses.find({ $text: { $search: symptoms[0] } }, { sort: { name: 1 } }).fetch();
     return (
       <Encyclopedia key={illnessData[0]._id} illness={illnessData[0]}/>
     );
