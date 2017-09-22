@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { createContainer } from 'meteor/react-meteor-data';
 import Encyclopedia from './Encyclopedia';
 
-import { Illnesses } from '../api/illness.js';
+import { Illnesses, IllnessesIndex } from '../api/illness.js';
 
 class Symptoms extends Component {
 
@@ -15,21 +15,46 @@ class Symptoms extends Component {
   renderIllness() {
     // Splits the input string into an array of words
     var symptoms = this.props.symptoms.split(" ");
+    // Must remove specail characters from 'symptoms' array - includes commas and numbers
 
     // Search for matching symptoms in database
     // Then spit out the illness names
-
-    // Need to be able to query single words in the database for symptoms attribute
+    /* var illnessData= [];*/
     for (var i = 0; i != symptoms.length; i++) {
-      /* console.log(Illnesses.find({ symptoms: symptoms[i] }).fetch());*/
+      /* illnessData.push(IllnessesIndex.search(symptoms[i]).fetch());*/
     }
+    // when you type in 'sneezing', it gives two JSON objects into single array value
 
-    // need to do the return as an if-statement else there will be console errors
-    /* var illnessData = Illnesses.find({ symptoms: this.props.symptoms }).fetch();*/
-    // may want to create a for-loop of illnesses i want to return
+    // must stop duplicate illnesses from appearing!
 
-    // SOLUTION: Must use Meteor.subscribe method
-    var illnessData = Illnesses.find({ $text: { $search: symptoms[0] } }, { sort: { name: 1 } }).fetch();
+    /* var tester = Illnesses.find({ symptoms: this.props.symptoms }).fetch();
+     * console.log(tester[0]._id);*/
+
+    /* console.log(illnessData[0]);
+     * console.log(JSON.stringify(illnessData[0]));
+
+     * var anotherTest = illnessData[0];
+     * console.log("Below is what I want to see:");
+     * console.log(anotherTest);
+     * console.log(anotherTest._id);
+     */
+
+    /*
+     * console.log(illnessData[0]._id);
+     * console.log(illnessData[0].name);
+
+     * var tester = illnessData[0];
+     * console.log(tester);
+     * console.log(tester.name);
+     */
+
+    // Need to create a for-loop of illnesses i want to return
+
+    // seems like it is not friendly with arrays
+    var illnessData = IllnessesIndex.search("overweight").fetch();
+
+
+
     return (
       <Encyclopedia key={illnessData[0]._id} illness={illnessData[0]}/>
     );
