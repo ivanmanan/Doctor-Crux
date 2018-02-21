@@ -24,5 +24,558 @@ db.illnesses.insert({ name: "Allergy",
                       summary: "A damaging immune response by the body to a substance, especially pollen, fur, or a particular food, to which the body becomes hypersensitive.",
                       treatment: "Take off-the-counter allergy medications. Remove possible sources of allergies around you."
                     });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+db.illnesses.insert({ name: "",
+                      link: "",
+                      symptoms: "",
+                      summary: "",
+                      treatment: ""
+                    });
+
 
 db.illnesses.createIndex({ "symptoms" : "text" });
